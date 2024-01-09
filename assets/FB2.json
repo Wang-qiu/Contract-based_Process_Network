@@ -1,0 +1,66 @@
+{
+    "nodes": [
+        {
+            "id": "rotaryLiftAtBelt2",
+            "title": "1",
+            "group": 7,
+            "name":"rotaryLiftAtBelt",
+            "color":"#81ACDB"
+        },
+        {
+            "id": "airGripperLifted2",
+            "title": "0",
+            "group": 7,
+            "name":"airGripperLifted",
+            "color":"#81ACDB"
+        },
+        {
+            "id": "airGripperOpened1",
+            "title": "1",
+            "group": 7,
+            "name":"airGripperOpened",
+            "color":"#CAEEFE"
+        },
+        {
+            "id": "readyToClose1",
+            "title": "+",
+            "group": 8,
+            "color":"#FFF2CC"
+        },
+        {
+            "id": "airGripperAction1",
+            "title": "▲airGripperAction=0",
+            "group": 9,
+            "color":"white"
+        },
+        {
+            "id": "airGripperOpened2",
+            "title": "0",
+            "group": 10,
+            "name":"airGripperOpened",
+            "color":"#C6DCF0"
+        }
+    ],
+    "links": [
+        {
+            "source": "airGripperLifted2",
+            "target": "readyToClose1"
+        },
+        {
+            "source": "rotaryLiftAtBelt2",
+            "target": "readyToClose1"
+        },
+        {
+            "source": "airGripperOpened1",
+            "target": "readyToClose1"
+        },
+        {
+            "source": "readyToClose1",
+            "target": "airGripperAction1"
+        },
+        {
+            "source": "airGripperAction1",
+            "target": "airGripperOpened2"
+        }
+    ]
+}

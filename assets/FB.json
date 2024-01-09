@@ -1,0 +1,143 @@
+{
+    "nodes": [
+        {
+            "id": "conveyorBelt3",
+            "title": "0",
+            "group": 5,
+            "name":"conveyorBelt",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "rotaryLiftAtBelt1",
+            "title": "0",
+            "group": 5,
+            "name":"rotaryLiftAtBelt",
+            "color":"#CAEEFE"
+        },
+        {
+            "id": "airGripperLifted1",
+            "title": "1",
+            "group": 5,
+            "name":"airGripperLifted",
+            "color":"#CAEEFE"
+        },
+        {
+            "id": "readyToBelt1",
+            "title": "+",
+            "group": 6,
+            "color":"#FFF2CC"
+        },
+        {
+            "id": "readyToDown1",
+            "title": "+",
+            "group": 6,
+            "color":"#FFF2CC"
+        },
+        {
+            "id": "rotateAction1",
+            "title": "▲rotateAction=0",
+            "group": 7,
+            "color":"white"
+        },
+        {
+            "id": "airGripperVerticalAction1",
+            "title": "▲airGripperVerticalAction=1",
+            "group": 7,
+            "color":"white"
+        },
+        {
+            "id": "rotaryLiftAtBelt2",
+            "title": "1",
+            "group": 8,
+            "name":"rotaryLiftAtBelt",
+            "color":"#81ACDB"
+        },
+        {
+            "id": "airGripperLifted2",
+            "title": "0",
+            "group": 8,
+            "name":"airGripperLifted",
+            "color":"#81ACDB"
+        },
+        {
+            "id": "airGripperOpened1",
+            "title": "1",
+            "group": 8,
+            "name":"airGripperOpened",
+            "color":"#CAEEFE"
+        },
+        {
+            "id": "readyToClose1",
+            "title": "+",
+            "group": 9,
+            "color":"#FFF2CC"
+        },
+        {
+            "id": "airGripperAction1",
+            "title": "▲airGripperAction=0",
+            "group": 10,
+            "color":"white"
+        },
+        {
+            "id": "airGripperOpened2",
+            "title": "0",
+            "group": 11,
+            "name":"airGripperOpened",
+            "color":"#C6DCF0"
+        }
+    ],
+    "links": [
+        {
+            "source": "conveyorBelt3",
+            "target": "readyToDown1"
+        },
+        {
+            "source": "airGripperLifted1",
+            "target": "readyToDown1"
+        },
+        {
+            "source": "conveyorBelt3",
+            "target": "readyToBelt1"
+        },
+        {
+            "source": "rotaryLiftAtBelt1",
+            "target": "readyToBelt1"
+        },
+        {
+            "source": "readyToBelt1",
+            "target": "rotateAction1"
+        },
+        {
+            "source": "readyToDown1",
+            "target": "airGripperVerticalAction1"
+        },
+        {
+            "source": "rotateAction1",
+            "target": "rotaryLiftAtBelt2"
+        },
+        {
+            "source": "airGripperVerticalAction1",
+            "target": "airGripperLifted2"
+        },
+        {
+            "source": "airGripperLifted2",
+            "target": "readyToClose1"
+        },
+        {
+            "source": "rotaryLiftAtBelt2",
+            "target": "readyToClose1"
+        },
+        {
+            "source": "airGripperOpened1",
+            "target": "readyToClose1"
+        },
+        {
+            "source": "readyToClose1",
+            "target": "airGripperAction1"
+        },
+        {
+            "source": "airGripperAction1",
+            "target": "airGripperOpened2"
+        }
+    ]
+}
