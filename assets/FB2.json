@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "id": "airGripperLift3",
+            "title": "→",
+            "group": 7,
+            "name":"airGripperLift:running",
+            "color":"#81ACDB"
+        },
+        {
+            "id": "airGripperLift4",
+            "title": "I",
+            "name":"airGripperLift:unlifted",
+            "group": 7,
+            "color":"#CAEEFE"
+        },
+        {
+            "id": "ACactivateAirGripper",
+            "title": "→",
+            "name":"activateAirGripper",
+            "group": 8,
+            "color":"#FFF2CC"
+        },
+        {
+            "id": "airGripperAction1",
+            "title": "▲airGripperAction=1",
+            "group": 9,
+            "color":"white"
+        },
+        {
+            "id": "airGripper1",
+            "title": "→",
+            "group": 10,
+            "name":"airGripper:opening",
+            "color":"#81ACDB"
+        },
+        {
+            "id": "airGripper2",
+            "title": "I",
+            "name":"airGripper:opened",
+            "group": 10,
+            "color":"#CAEEFE"
+        }
+    ],
+    "links": [
+        {
+            "source": "airGripperLift3",
+            "target": "ACactivateAirGripper"
+        },
+        {
+            "source": "airGripperLift4",
+            "target": "ACactivateAirGripper"
+        },
+        {
+            "source": "ACactivateAirGripper",
+            "target": "airGripperAction1"
+        },
+        {
+            "source": "airGripperAction1",
+            "target": "airGripper1"
+        }
+    ]
+}

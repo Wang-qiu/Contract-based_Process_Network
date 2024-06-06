@@ -1,0 +1,78 @@
+{
+    "nodes": [
+        {
+            "id": "rotaryLift1",
+            "title": "→",
+            "group": 5,
+            "name":"rotaryLift:rotating",
+            "color":"#81ACDB"
+        },
+        {
+            "id": "rotaryLift2",
+            "title": "I",
+            "group": 5,
+            "name":"rotaryLiftPos:belt",
+            "color":"#CAEEFE"
+        },
+        {
+            "id": "airGripperLift1",
+            "title": "→",
+            "group": 5,
+            "name":"airGripperLift:running",
+            "color":"#81ACDB"
+        },
+        {
+            "id": "airGripperLift2",
+            "title": "I",
+            "group": 5,
+            "name":"airGripperLift:lifted",
+            "color":"#CAEEFE"
+        },
+        {
+            "id": "ACairGripperLiftAction",
+            "title": "→",
+            "name":"activateAirGripperLift",
+            "group": 6,
+            "color":"#FFF2CC"
+        },
+        {
+            "id": "airGripperLiftAction1",
+            "title": "▲airGripperLiftAction=1",
+            "group": 7,
+            "color":"white"
+        },
+        {
+            "id": "airGripperLift3",
+            "title": "→",
+            "group": 8,
+            "name":"airGripperLift:running",
+            "color":"#81ACDB"
+        }
+    ],
+    "links": [
+        {
+            "source": "rotaryLift1",
+            "target": "ACairGripperLiftAction"
+        },
+        {
+            "source": "rotaryLift2",
+            "target": "ACairGripperLiftAction"
+        },
+        {
+            "source": "airGripperLift1",
+            "target": "ACairGripperLiftAction"
+        },
+        {
+            "source": "airGripperLift2",
+            "target": "ACairGripperLiftAction"
+        },
+        {
+            "source": "ACairGripperLiftAction",
+            "target": "airGripperLiftAction1"
+        },
+        {
+            "source": "airGripperLiftAction1",
+            "target": "airGripperLift3"
+        }
+    ]
+}

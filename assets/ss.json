@@ -1,0 +1,468 @@
+{
+    "nodes": [
+        {
+            "id": "workPieceColorDetected1",
+            "title": "1",
+            "group": 1,
+            "name":"workPieceColorDetected",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "BarrierArm1",
+            "title": "1",
+            "group": 1,
+            "name":"barrierArm:Extended",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "activateBarrierArm1",
+            "title": "→",
+            "name":"activateBarrierArm",
+            "group": 2,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "BarrierArmAction1",
+            "title": "▲barrierArmAction=0",
+            "group": 3,
+            "color":"white"
+        },
+        {
+            "id": "BarrierArm2",
+            "title": "0",
+            "group": 4,
+            "name":"barrierArm:Retracted",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "workPieceColor1",
+            "title": "1",
+            "group": 4,
+            "name":"workPieceColor:Red",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "SortingArm1-2",
+            "title": "0",
+            "group": 4,
+            "name":"sortingArm1:Retracted",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "workPieceColor2",
+            "title": "1",
+            "group": 4,
+            "name":"workPieceColor:Silver",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "SortingArm2-2",
+            "title": "0",
+            "group": 4,
+            "name":"sortingArm2:Retracted",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "workPieceColor3",
+            "title": "1",
+            "group": 4,
+            "name":"workPieceColor:Black",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "conveyorBelt1",
+            "title": "0",
+            "group": 4,
+            "name":"conveyorBelt4",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "workPieceAtFront1",
+            "title": "1",
+            "group": 4,
+            "name":"workPieceAtFrontSorting",
+            "color":"#C6DCF0"
+        },
+
+        {
+            "id": "activateSortingArm1-1",
+            "title": "→",
+            "name":"activateSortingArm1",
+            "group": 5,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "SortingArm1Action1",
+            "title": "▲sortingArm1Action=1",
+            "group": 6,
+            "color":"white"
+        },
+        {
+            "id": "SortingArm1-1",
+            "title": "1",
+            "group": 7,
+            "name":"sortingArm1:Extended",
+            "color":"#C6DCF0"
+        },{
+            "id": "activateConveyor4-2",
+            "title": "→",
+            "name":"activateConveyor",
+            "group": 8,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "convAction2",
+            "title": "▲conv4Action=1",
+            "group": 9,
+            "color":"white"
+        },
+        {
+            "id": "conveyorBelt3",
+            "title": "1",
+            "group": 10,
+            "name":"conveyorBelt4",
+            "color":"#C6DCF0"
+        },{
+            "id": "activateConveyor4-4",
+            "title": "→",
+            "name":"activateConveyor",
+            "group": 11,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "convAction4",
+            "title": "▲conv4Action=0",
+            "group": 12,
+            "color":"white"
+        },
+        {
+            "id": "conveyorBelt5",
+            "title": "0",
+            "group": 13,
+            "name":"conveyorBelt4",
+            "color":"#C6DCF0"
+        },
+
+        {
+            "id": "activateSortingArm2-1",
+            "title": "→",
+            "name":"activateSortingArm2",
+            "group": 5,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "SortingArm2Action1",
+            "title": "▲sortingArm2Action=1",
+            "group": 6,
+            "color":"white"
+        },
+        {
+            "id": "SortingArm2-1",
+            "title": "1",
+            "group": 7,
+            "name":"sortingArm2:Extended",
+            "color":"#C6DCF0"
+        },{
+            "id": "activateConveyor4-3",
+            "title": "→",
+            "name":"activateConveyor",
+            "group": 8,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "convAction3",
+            "title": "▲conv4Action=1",
+            "group": 9,
+            "color":"white"
+        },
+        {
+            "id": "conveyorBelt4",
+            "title": "1",
+            "group": 10,
+            "name":"conveyorBelt4",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "chuteStatus1",
+            "title": "1",
+            "group": 10,
+            "name":"chuteStatus",
+            "color":"#C6DCF0"
+        },{
+            "id": "activateConveyor4-5",
+            "title": "→",
+            "name":"activateConveyor",
+            "group": 11,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "convAction5",
+            "title": "▲conv4Action=0",
+            "group": 12,
+            "color":"white"
+        },
+        {
+            "id": "conveyorBelt6",
+            "title": "0",
+            "group": 13,
+            "name":"conveyorBelt4",
+            "color":"#C6DCF0"
+        },
+
+        {
+            "id": "activateConveyor4-1",
+            "title": "→",
+            "name":"activateConveyor",
+            "group": 5,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "convAction1",
+            "title": "▲conv4Action=1",
+            "group": 6,
+            "color":"white"
+        },
+        {
+            "id": "conveyorBelt2",
+            "title": "1",
+            "group": 10,
+            "name":"conveyorBelt4",
+            "color":"#C6DCF0"
+        },{
+            "id": "activateConveyor4-6",
+            "title": "→",
+            "name":"activateConveyor",
+            "group": 11,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "convAction6",
+            "title": "▲conv4Action=0",
+            "group": 12,
+            "color":"white"
+        },
+        {
+            "id": "conveyorBelt7",
+            "title": "0",
+            "group": 13,
+            "name":"conveyorBelt4",
+            "color":"#C6DCF0"
+        }
+
+    ],
+    "links": [
+        {
+            "source": "workPieceColorDetected1",
+            "target": "activateBarrierArm1",
+            "color":"#999"
+        },
+        {
+            "source": "BarrierArm1",
+            "target": "activateBarrierArm1",
+            "color":"#999"
+        },
+        {
+            "source": "activateBarrierArm1",
+            "target": "BarrierArmAction1",
+            "color":"#999"
+        },
+        {
+            "source": "BarrierArmAction1",
+            "target": "BarrierArm2",
+            "color":"#999"
+        }
+     
+        ,{
+            "source": "BarrierArm2",
+            "target": "activateSortingArm1-1",
+            "color":"red"
+        },
+        {
+            "source": "workPieceColor1",
+            "target": "activateSortingArm1-1",
+            "color":"red"
+        },
+        {
+            "source": "SortingArm1-2",
+            "target": "activateSortingArm1-1",
+            "color":"red"
+        },
+        {
+            "source": "activateSortingArm1-1",
+            "target": "SortingArm1Action1",
+            "color":"red"
+        },
+        {
+            "source": "SortingArm1Action1",
+            "target": "SortingArm1-1",
+            "color":"red"
+        },
+        {
+            "source": "conveyorBelt1",
+            "target": "activateConveyor4-2",
+            "color":"red"
+        },
+        {
+            "source": "SortingArm1-1",
+            "target": "activateConveyor4-2",
+            "color":"red"
+        },
+        {
+            "source": "workPieceAtFront1",
+            "target": "activateConveyor4-2",
+            "color":"red"
+        },
+        {
+            "source": "activateConveyor4-2",
+            "target": "convAction2",
+            "color":"red"
+        },
+        {
+            "source": "convAction2",
+            "target": "conveyorBelt3",
+            "color":"red"
+        },
+        {
+            "source": "conveyorBelt3",
+            "target": "activateConveyor4-4",
+            "color":"red"
+        },
+        {
+            "source": "chuteStatus1",
+            "target": "activateConveyor4-4",
+            "color":"red"
+        },
+        {
+            "source": "activateConveyor4-4",
+            "target": "convAction4",
+            "color":"red"
+        },
+        {
+            "source": "convAction4",
+            "target": "conveyorBelt5",
+            "color":"red"
+        }
+
+        ,{
+            "source": "BarrierArm2",
+            "target": "activateSortingArm2-1",
+            "color":"silver"
+        },
+        {
+            "source": "workPieceColor2",
+            "target": "activateSortingArm2-1",
+            "color":"silver"
+        },
+        {
+            "source": "SortingArm2-2",
+            "target": "activateSortingArm2-1",
+            "color":"silver"
+        },
+        {
+            "source": "activateSortingArm2-1",
+            "target": "SortingArm2Action1",
+            "color":"silver"
+        },
+        {
+            "source": "SortingArm2Action1",
+            "target": "SortingArm2-1",
+            "color":"silver"
+        },
+        {
+            "source": "conveyorBelt1",
+            "target": "activateConveyor4-3",
+            "color":"silver"
+        },
+        {
+            "source": "SortingArm2-1",
+            "target": "activateConveyor4-3",
+            "color":"silver"
+        },
+        {
+            "source": "workPieceAtFront1",
+            "target": "activateConveyor4-3",
+            "color":"silver"
+        },
+        {
+            "source": "activateConveyor4-3",
+            "target": "convAction3",
+            "color":"silver"
+        },
+        {
+            "source": "convAction3",
+            "target": "conveyorBelt4",
+            "color":"silver"
+        },
+        {
+            "source": "conveyorBelt4",
+            "target": "activateConveyor4-5",
+            "color":"silver"
+        },
+        {
+            "source": "chuteStatus1",
+            "target": "activateConveyor4-5",
+            "color":"silver"
+        },
+        {
+            "source": "activateConveyor4-5",
+            "target": "convAction5",
+            "color":"silver"
+        },
+        {
+            "source": "convAction5",
+            "target": "conveyorBelt6",
+            "color":"silver"
+        }
+     
+        ,{
+            "source": "BarrierArm2",
+            "target": "activateConveyor4-1",
+            "color":"blue"
+        },
+        {
+            "source": "workPieceColor3",
+            "target": "activateConveyor4-1",
+            "color":"blue"
+        },
+        {
+            "source": "conveyorBelt1",
+            "target": "activateConveyor4-1",
+            "color":"blue"
+        },
+        {
+            "source": "workPieceAtFront1",
+            "target": "activateConveyor4-1",
+            "color":"blue"
+        },
+        {
+            "source": "activateConveyor4-1",
+            "target": "convAction1",
+            "color":"blue"
+        },
+        {
+            "source": "convAction1",
+            "target": "conveyorBelt2",
+            "color":"blue"
+        },
+        {
+            "source": "conveyorBelt2",
+            "target": "activateConveyor4-6",
+            "color":"blue"
+        },
+        {
+            "source": "chuteStatus1",
+            "target": "activateConveyor4-6",
+            "color":"blue"
+        },
+        {
+            "source": "activateConveyor4-6",
+            "target": "convAction6",
+            "color":"blue"
+        },
+        {
+            "source": "convAction6",
+            "target": "conveyorBelt7",
+            "color":"blue"
+        }
+    ]
+}

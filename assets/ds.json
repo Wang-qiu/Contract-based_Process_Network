@@ -1,0 +1,288 @@
+{
+    "nodes": [
+        {
+            "id": "ResetButton",
+            "title": "1",
+            "group": 1,
+            "name":"resetButton",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "activateConveyor1-1",
+            "title": "→",
+            "name":"activateConveyor",
+            "group": 2,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "activatePushRod1",
+            "title": "→",
+            "name":"activatePushRod",
+            "group": 2,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "convAction1",
+            "title": "▲conv1Action=0",
+            "group": 3,
+            "color":"white"
+        },
+        {
+            "id": "pushRodAction1",
+            "title": "▲pushRodAction=0",
+            "group": 3,
+            "color":"white"
+        },
+        {
+            "id": "conveyorBelt1",
+            "title": "0",
+            "group": 4,
+            "name":"conveyorBelt1",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "pushRodCylinder1",
+            "title": "0",
+            "group": 4,
+            "name":"pushRodCylinder:Retracted",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "HomeProximity",
+            "title": "1",
+            "group": 4,
+            "name":"homeProximity:On",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "workPieceAtEnd1",
+            "title": "0",
+            "group": 4,
+            "name":"workPieceAtEndDistribution",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "workPieceAtMid1",
+            "title": "0",
+            "group": 4,
+            "name":"workPieceAtMidDistribution",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "warehouseStatus",
+            "title": "1",
+            "group": 4,
+            "name":"wareHouseStatus",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "startButton",
+            "title": "1",
+            "group": 4,
+            "name":"startButton",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "activatePushRod2",
+            "title": "→",
+            "name":"activatePushRod",
+            "group": 5,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "pushRodAction2",
+            "title": "▲pushRodAction=1",
+            "group": 6,
+            "color":"white"
+        },
+        {
+            "id": "pushRodCylinder2",
+            "title": "1",
+            "group": 7,
+            "name":"pushRodCylinder:Extended",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "workPieceAtMid2",
+            "title": "1",
+            "group": 7,
+            "name":"workPieceAtMidDistribution",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "activatePushRod3",
+            "title": "→",
+            "name":"activatePushRod",
+            "group": 8,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "activateConveyor1-2",
+            "title": "→",
+            "name":"activateConveyor",
+            "group": 8,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "pushRodAction3",
+            "title": "▲pushRodAction=0",
+            "group": 9,
+            "color":"white"
+        },
+        {
+            "id": "convAction2",
+            "title": "▲conv1Action=1",
+            "group": 9,
+            "color":"white"
+        },
+        {
+            "id": "pushRodCylinder3",
+            "title": "0",
+            "group": 10,
+            "name":"pushRodCylinder:Retracted",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "conveyorBelt2",
+            "title": "1",
+            "group": 10,
+            "name":"conveyorBelt1",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "workPieceAtEnd2",
+            "title": "1",
+            "group": 10,
+            "name":"workPieceAtEndDistribution",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "activateConveyor1-3",
+            "title": "→",
+            "name":"activateConveyor",
+            "group": 11,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "convAction3",
+            "title": "▲conv1Action=0",
+            "group": 12,
+            "color":"white"
+        },
+        {
+            "id": "conveyorBelt3",
+            "title": "0",
+            "group": 13,
+            "name":"conveyorBelt1",
+            "color":"#C6DCF0"
+        }
+    ],
+    "links": [
+        {
+            "source": "ResetButton",
+            "target": "activateConveyor1-1"
+        },
+        {
+            "source": "ResetButton",
+            "target": "activatePushRod1"
+        },
+        {
+            "source": "activateConveyor1-1",
+            "target": "convAction1"
+        },
+        {
+            "source": "activatePushRod1",
+            "target": "pushRodAction1"
+        },
+        {
+            "source": "convAction1",
+            "target": "conveyorBelt1"
+        },
+        {
+            "source": "pushRodAction1",
+            "target": "pushRodCylinder1"
+        },
+
+        {
+            "source": "pushRodCylinder1",
+            "target": "activatePushRod2"
+        },
+        {
+            "source": "conveyorBelt1",
+            "target": "activatePushRod2"
+        },
+        {
+            "source": "HomeProximity",
+            "target": "activatePushRod2"
+        },
+        {
+            "source": "workPieceAtEnd1",
+            "target": "activatePushRod2"
+        },
+        {
+            "source": "workPieceAtMid1",
+            "target": "activatePushRod2"
+        },
+        {
+            "source": "startButton",
+            "target": "activatePushRod2"
+        },
+        {
+            "source": "warehouseStatus",
+            "target": "activatePushRod2"
+        },
+        {
+            "source": "activatePushRod2",
+            "target": "pushRodAction2"
+        },
+        {
+            "source": "pushRodAction2",
+            "target": "pushRodCylinder2"
+        },
+        {
+            "source": "pushRodCylinder2",
+            "target": "activatePushRod3"
+        },
+        {
+            "source": "workPieceAtMid2",
+            "target": "activatePushRod3"
+        },
+        {
+            "source": "workPieceAtMid2",
+            "target": "activateConveyor1-2"
+        }
+        ,
+        {
+            "source": "activatePushRod3",
+            "target": "pushRodAction3"
+        },
+        {
+            "source": "activateConveyor1-2",
+            "target": "convAction2"
+        },
+        {
+            "source": "pushRodAction3",
+            "target": "pushRodCylinder3"
+        },
+        {
+            "source": "convAction2",
+            "target": "conveyorBelt2"
+        },
+        {
+            "source": "conveyorBelt2",
+            "target": "activateConveyor1-3"
+        },
+        {
+            "source": "workPieceAtEnd2",
+            "target": "activateConveyor1-3"
+        },
+        {
+            "source": "activateConveyor1-3",
+            "target": "convAction3"
+        },
+        {
+            "source": "convAction3",
+            "target": "conveyorBelt3"
+        }
+    ]
+}

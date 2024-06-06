@@ -1,0 +1,1259 @@
+{
+    "nodes": [
+        {
+            "id": "conveyorBelt1",
+            "title": "0",
+            "group": 1,
+            "name":"conveyorBelt2",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "workPieceAtEnd1",
+            "title": "1",
+            "group": 1,
+            "name":"workPieceAtEndDistribution",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "activateConveyor2-1",
+            "title": "→",
+            "name":"activateConveyor",
+            "group": 2,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "convForwardAction1",
+            "title": "▲conv2Action=1",
+            "group": 3,
+            "color":"white"
+        },
+        {
+            "id": "conveyorBelt2",
+            "title": "1",
+            "group": 4,
+            "name":"conveyorBelt2",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "workPieceAtbarrierArm1",
+            "title": "1",
+            "group": 4,
+            "name":"workPieceAtBarrierArm",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "activateConveyor2-2",
+            "title": "→",
+            "name":"activateConveyor",
+            "group": 5,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "convForwardAction2",
+            "title": "▲conv2Action=0",
+            "group": 6,
+            "color":"white"
+        },
+        {
+            "id": "conveyorBelt3",
+            "title": "0",
+            "group": 7,
+            "name":"conveyorBelt2",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "rotaryLiftAtBelt1",
+            "title": "0",
+            "group": 7,
+            "name":"rotaryLiftAtBelt",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "airGripperLifted1",
+            "title": "1",
+            "group": 10,
+            "name":"airGripperLifted",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "activateRotaryLift1",
+            "title": "→",
+            "name":"activateRotaryLift",
+            "group": 8,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "activateAirGripperLift1",
+            "title": "→",
+            "name":"activateAirGripperLift",
+            "group": 11,
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "rotateBeltAction1",
+            "title": "▲rotateAction=0",
+            "group": 9,
+            "color":"white"
+        },
+        {
+            "id": "airGripperDownAction1",
+            "title": "▲airGripperVerticalAction=1",
+            "group": 12,
+            "color":"white"
+        },
+        {
+            "id": "rotaryLiftAtBelt2",
+            "title": "1",
+            "group": 10,
+            "name":"rotaryLiftAtBelt",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "airGripperLifted2",
+            "title": "0",
+            "group": 13,
+            "name":"airGripperLifted",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "airGripperOpened1",
+            "title": "1",
+            "group": 13,
+            "name":"airGripperOpened",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "activateAirGripper1",
+            "title": "→",
+            "group": 14,
+            "name":"activateAirGripper",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "airCloseAction1",
+            "title": "▲airGripperAction=0",
+            "group": 15,
+            "color":"white"
+        },
+        {
+            "id": "rotaryLiftAtMeasuring1",
+            "title": "0",
+            "group": 16,
+            "name":"rotaryLiftAtMeasuring",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "airGripperOpened2",
+            "title": "0",
+            "group": 16,
+            "name":"airGripperOpened",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "activateRotaryLift2",
+            "title": "→",
+            "group": 17,
+            "name": "activateRotaryLift",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "activateAirGripperLift2",
+            "title": "→",
+            "group": 17,
+            "name": "activateAirGripperLift",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "rotateMeasuringAction1",
+            "title": "▲rotateAction=1",
+            "group": 18,
+            "color":"white"
+        },
+        {
+            "id": "airGripperUpAction1",
+            "title": "▲airGripperVerticalAction=0",
+            "group": 18,
+            "color":"white"
+        },
+        {
+            "id": "rotaryLiftAtMeasuring2",
+            "title": "1",
+            "group": 19,
+            "name":"rotaryLiftAtMeasuring",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "airGripperLifted3",
+            "title": "1",
+            "group": 19,
+            "name":"airGripperLifted",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "activateAirGripperLift3",
+            "title": "→",
+            "group": 20,
+            "name": "activateAirGripperLift",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "airGripperDownAction2",
+            "title": "▲airGripperVerticalAction=1",
+            "group": 21,
+            "color":"white"
+        },
+        {
+            "id": "airGripperLifted4",
+            "title": "0",
+            "group": 22,
+            "name":"airGripperLifted",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "activateMeasureEquipment",
+            "title": "→",
+            "group": 23,
+            "name":"activateMeasureEquipment",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "MeasureAction",
+            "title": "▲measureAction=1",
+            "group": 24,
+            "color":"white"
+        },
+        {
+            "id": "rotaryLiftAtBelt3",
+            "title": "0",
+            "group": 25,
+            "name":"rotaryLiftAtBelt",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "<=3000",
+            "title": "1",
+            "group": 25,
+            "name":"measuringIndex:Qualified",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": ">=3000",
+            "title": "1",
+            "group": 25,
+            "name":"measuringIndex:Unqualified",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "readyToBelt2",
+            "title": "→",
+            "group": 26,
+            "name":"activateRotaryLift",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "readyToUp2",
+            "title": "→",
+            "group": 26,
+            "name":"activateAirGripperLift",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "rotateBeltAction2",
+            "title": "▲rotateAction=0",
+            "group": 27,
+            "color":"white"
+        },
+        {
+            "id": "airGripperUpAction2",
+            "title": "▲airGripperVerticalAction=0",
+            "group": 27,
+            "color":"white"
+        },
+        { 
+            "id": "rotaryLiftAtBelt4",
+            "title": "1",
+            "group": 28,
+            "name":"rotaryLiftAtBelt",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "airGripperLifted5",
+            "title": "1",
+            "group": 28,
+            "name":"airGripperLifted",
+            "color":"#C6DCF0"
+        },
+        { 
+            "id": "readyToDown3",
+            "title": "→",
+            "group": 29,
+            "name":"activateAirGripperLift",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "airGripperDownAction3",
+            "title": "▲airGripperVerticalAction=1",
+            "group": 30,
+            "color":"white"
+        },
+        {
+            "id": "airGripperLifted6",
+            "title": "0",
+            "group": 31,
+            "name":"airGripperLifted",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "readyToOpen1",
+            "title": "→",
+            "group": 32,
+            "name":"activateAirGripper",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "airGripperOpenAction1",
+            "title": "▲airGripperAction=1",
+            "group": 33,
+            "color":"white"
+        },
+        {
+            "id": "airGripperOpened3",
+            "title": "1",
+            "group": 34,
+            "name":"airGripperOpened",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "readyToUp3",
+            "title": "→",
+            "group": 35,
+            "name":"activateAirGripperLift",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "airGripperUpAction3",
+            "title": "▲airGripperVerticalAction=0",
+            "group": 36,
+            "color":"white"
+        },
+        {
+            "id": "rotaryLiftAtMeasuring3",
+            "title": "0",
+            "group": 34,
+            "name":"rotaryLiftAtMeasuring",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "barrierArm1",
+            "title": "1",
+            "group": 37,
+            "name":"barrierArm",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "airGripperLifted7",
+            "title": "1",
+            "group": 37,
+            "name":"airGripperLifted",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "readyToMeasuring2",
+            "title": "→",
+            "group": 35,
+            "name":"activateRotaryLift",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "rotateMeasuringAction2",
+            "title": "▲rotateAction=1",
+            "group": 36,
+            "color":"white"
+        },
+        {
+            "id": "rotaryLiftAtMeasuring4",
+            "title": "1",
+            "group": 37,
+            "name":"rotaryLiftAtMeasuring",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "readyToRetract1",
+            "title": "→",
+            "group": 38,
+            "name":"activateBarrierArm",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "barrierArmAction1",
+            "title": "▲barrierArmAction=0",
+            "group": 39,
+            "color":"white"
+        },
+        {
+            "id": "barrierArm2",
+            "title": "0",
+            "group": 40,
+            "name":"barrierArm",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "readyToRun2",
+            "title": "→",
+            "group": 41,
+            "name":"activateConveyor",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "convForwardAction3",
+            "title": "▲conv2Action=1",
+            "group": 42,
+            "color":"white"
+        },
+        {
+            "id": "conveyorBelt4",
+            "title": "1",
+            "group": 43,
+            "name":"conveyorBelt2",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "workPieceAtEnd2",
+            "title": "1",
+            "group": 43,
+            "name":"workPieceAtEndMeasuring",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "readyToStop2",
+            "title": "→",
+            "group": 44,
+            "name":"activateConveyor",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "convForwardAction4",
+            "title": "▲conv2Action=0",
+            "group": 45,
+            "color":"white"
+        },
+        {
+            "id": "conveyorBelt5",
+            "title": "0",
+            "group": 46,
+            "name":"conveyorBelt2",
+            "color":"#C6DCF0"
+        },
+
+        {
+            "id": "sortingArm1",
+            "title": "0",
+            "group": 25,
+            "name":"sortingArm",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "readyToExtend1",
+            "title": "→",
+            "group": 26,
+            "name":"activateSortingArm",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "sortingArmAction1",
+            "title": "▲sortingArmAction=1",
+            "group": 27,
+            "color":"white"
+        },
+        {
+            "id": "sortingArm2",
+            "title": "1",
+            "group": 28,
+            "name":"sortingArm",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "rotaryLiftAtBelt5",
+            "title": "0",
+            "group": 28,
+            "name":"rotaryLiftAtBelt",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "readyToUp4",
+            "title": "→",
+            "group": 29,
+            "name":"activateAirGripperLift",
+            "color":"#C6DCF0"
+        },
+        {  
+            "id": "readyToBelt3",
+            "title": "→",
+            "group": 29,
+            "name":"activateRotaryLift",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "airGripperUpAction4",
+            "title": "▲airGripperVerticalAction=0",
+            "group": 30,
+            "color":"white"
+        },
+        {
+            "id": "rotateBeltAction3",
+            "title": "▲rotateAction=0",
+            "group": 30,
+            "color":"white"
+        },
+        {
+            "id": "airGripperLifted8",
+            "title": "1",
+            "group": 31,
+            "name":"airGripperLifted",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "rotaryLiftAtBelt6",
+            "title": "1",
+            "group": 31,
+            "name":"rotaryLiftAtBelt",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "readyToDown4",
+            "title": "→",
+            "group": 32,
+            "name":"activateAirGripperLift",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "airGripperDownAction4",
+            "title": "▲airGripperVerticalAction=1",
+            "group": 33,
+            "color":"white"
+        },
+        {
+            "id": "airGripperLifted9",
+            "title": "0",
+            "group": 34,
+            "name":"airGripperLifted",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "readyToOpen2",
+            "title": "→",
+            "group": 35,
+            "name":"activateAirGripper",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "airGripperOpenAction2",
+            "title": "▲airGripperAction=1",
+            "group": 36,
+            "color":"white"
+        },
+        {
+            "id": "airGripperOpened4",
+            "title": "1",
+            "group": 37,
+            "name":"airGripperOpened",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "readyToUp5",
+            "title": "→",
+            "group": 38,
+            "name":"activateAirGripperLift",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "airGripperUpAction5",
+            "title": "▲airGripperVerticalAction=0",
+            "group": 39,
+            "color":"white"
+        },
+        {
+            "id": "airGripperLifted10",
+            "title": "1",
+            "group": 40,
+            "name":"airGripperLifted",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "rotaryLiftAtMeasuring5",
+            "title": "0",
+            "group": 37,
+            "name":"rotaryLiftAtMeasuring",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "readyToMeasuring3",
+            "title": "→",
+            "group": 38,
+            "name":"activateRotaryLift",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "rotateMeasuringAction3",
+            "title": "▲rotateAction=1",
+            "group": 39,
+            "color":"white"
+        },
+        {
+            "id": "rotaryLiftAtMeasuring6",
+            "title": "1",
+            "group": 40,
+            "name":"rotaryLiftAtMeasuring",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "barrierArm3",
+            "title": "1",
+            "group": 40,
+            "name":"barrierArm",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "readyToRetract2",
+            "title": "→",
+            "group": 41,
+            "name":"activateBarrierArm",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "barrierArmAction2",
+            "title": "▲barrierArmAction=0",
+            "group": 42,
+            "color":"white"
+        },
+        {
+            "id": "barrierArm4",
+            "title": "0",
+            "group": 43,
+            "name":"barrierArm",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "readyToRun3",
+            "title": "→",
+            "group": 44,
+            "name":"activateConveyor",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "convForwardAction5",
+            "title": "▲conv2Action=1",
+            "group": 45,
+            "color":"white"
+        },
+        {
+            "id": "conveyorBelt6",
+            "title": "1",
+            "group": 46,
+            "name":"conveyorBelt2",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "Chute1",
+            "title": "0",
+            "group": 46,
+            "name":"chute",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "readyToStop3",
+            "title": "→",
+            "group": 47,
+            "name":"activateConveyor",
+            "color":"#C6DCF0"
+        },
+        {
+            "id": "convForwardAction6",
+            "title": "▲conv2Action=0",
+            "group": 48,
+            "color":"white"
+        },
+        {
+            "id": "conveyorBelt7",
+            "title": "0",
+            "group": 49,
+            "name":"conveyorBelt2",
+            "color":"#C6DCF0"
+        }
+
+        
+    ],
+    "links": [
+        {
+            "source": "conveyorBelt1",
+            "target": "activateConveyor2-1"
+        },
+        {
+            "source": "workPieceAtEnd1",
+            "target": "activateConveyor2-1"
+        },
+        {
+            "source": "activateConveyor2-1",
+            "target": "convForwardAction1"
+        },
+        {
+            "source": "convForwardAction1",
+            "target": "conveyorBelt2"
+        },
+        {
+            "source": "convForwardAction1",
+            "target": "workPieceAtbarrierArm1"
+        },
+        {
+            "source": "conveyorBelt2",
+            "target": "activateConveyor2-2"
+        },
+        {
+            "source": "workPieceAtbarrierArm1",
+            "target": "activateConveyor2-2"
+        },
+        {
+            "source": "activateConveyor2-2",
+            "target": "convForwardAction2"
+        },
+        {
+            "source": "convForwardAction2",
+            "target": "conveyorBelt3"
+        },
+        {
+            "source": "conveyorBelt3",
+            "target": "activateRotaryLift1"
+        },
+        {
+            "source": "rotaryLiftAtBelt1",
+            "target": "activateRotaryLift1"
+        },
+        {
+            "source": "activateRotaryLift1",
+            "target": "rotateBeltAction1"
+        },
+        {
+            "source": "rotateBeltAction1",
+            "target": "rotaryLiftAtBelt2"
+        },
+        {
+            "source": "airGripperLifted1",
+            "target": "activateAirGripperLift1"
+        },
+        {
+            "source": "activateAirGripperLift1",
+            "target": "airGripperDownAction1"
+        },
+        {
+            "source": "airGripperDownAction1",
+            "target": "airGripperLifted2"
+        },
+        {
+            "source": "rotaryLiftAtBelt2",
+            "target": "activateAirGripperLift1"
+        },
+        {
+            "source": "airGripperLifted2",
+            "target": "activateAirGripper1"
+        },
+        {
+            "source": "airGripperOpened1",
+            "target": "activateAirGripper1"
+        },
+        {
+            "source": "activateAirGripper1",
+            "target": "airCloseAction1"
+        },
+        {
+            "source": "airCloseAction1",
+            "target": "airGripperOpened2"
+        },
+        {
+            "source": "rotaryLiftAtMeasuring1",
+            "target": "activateRotaryLift2"
+        },
+        {
+            "source": "airGripperOpened2",
+            "target": "activateRotaryLift2"
+        },
+        {
+            "source": "airGripperLifted2",
+            "target": "activateAirGripperLift2"
+        },
+        {
+            "source": "airGripperOpened2",
+            "target": "activateAirGripperLift2"
+        },
+        {
+            "source": "activateRotaryLift2",
+            "target": "rotateMeasuringAction1"
+        },
+        {
+            "source": "rotateMeasuringAction1",
+            "target": "rotaryLiftAtMeasuring2"
+        },
+        {
+            "source": "activateAirGripperLift2",
+            "target": "airGripperUpAction1"
+        },
+        {
+            "source": "airGripperUpAction1",
+            "target": "airGripperLifted3"
+        }
+        ,
+        {
+            "source": "rotaryLiftAtMeasuring2",
+            "target": "activateAirGripperLift3"
+        },
+        {
+            "source": "airGripperLifted3",
+            "target": "activateAirGripperLift3"
+        },
+        {
+            "source": "activateAirGripperLift3",
+            "target": "airGripperDownAction2"
+        },
+        {
+            "source": "airGripperDownAction2",
+            "target": "airGripperLifted4"
+        },
+        {
+            "source": "rotaryLiftAtMeasuring2",
+            "target": "activateMeasureEquipment"
+        },
+        {
+            "source": "airGripperLifted4",
+            "target": "activateMeasureEquipment"
+        },
+        {
+            "source": "airGripperOpened2",
+            "target": "activateMeasureEquipment"
+        },
+        {
+            "source": "activateMeasureEquipment",
+            "target": "MeasureAction"
+        },
+        {
+            "source": "MeasureAction",
+            "target": "<=3000",
+            "color": "blue"
+        },
+        {
+            "source": "MeasureAction",
+            "target": ">=3000",
+            "color": "silver"
+        },
+        {
+            "source": "rotaryLiftAtBelt3",
+            "target": "readyToBelt2",
+            "color": "blue"
+        },
+        {
+            "source": "<=3000",
+            "target": "readyToBelt2",
+            "color": "blue"
+        },
+        {
+            "source": "<=3000",
+            "target": "readyToUp2",
+            "color": "blue"
+        },
+        {
+            "source": "airGripperLifted4",
+            "target": "readyToUp2",
+            "color": "blue"
+        },
+        {
+            "source": "readyToBelt2",
+            "target": "rotateBeltAction2",
+            "color": "blue"
+        },
+        {
+            "source": "readyToUp2",
+            "target": "airGripperUpAction2",
+            "color": "blue"
+        },
+        {
+            "source": "rotateBeltAction2",
+            "target": "rotaryLiftAtBelt4",
+            "color": "blue"
+        },
+        {
+            "source": "airGripperUpAction2",
+            "target": "airGripperLifted5",
+            "color": "blue"
+        },
+        {
+            "source": "rotaryLiftAtBelt4",
+            "target": "readyToDown3",
+            "color": "blue"
+        },
+        {
+            "source": "airGripperLifted5",
+            "target": "readyToDown3",
+            "color": "blue"
+        },
+        {
+            "source": "readyToDown3",
+            "target": "airGripperDownAction3",
+            "color": "blue"
+        },
+        {
+            "source": "airGripperDownAction3",
+            "target": "airGripperLifted6",
+            "color": "blue"
+        },
+        {
+            "source": "airGripperLifted6",
+            "target": "readyToOpen1",
+            "color": "blue"
+        },
+        {
+            "source": "airGripperOpened2",
+            "target": "readyToOpen1",
+            "color": "blue"
+        },
+        {
+            "source": "rotaryLiftAtBelt4",
+            "target": "readyToOpen1",
+            "color": "blue"
+        },
+        {
+            "source": "conveyorBelt3",
+            "target": "readyToOpen1",
+            "color": "blue"
+        },
+        {
+            "source": "readyToOpen1",
+            "target": "airGripperOpenAction1",
+            "color": "blue"
+        },
+        {
+            "source": "airGripperOpenAction1",
+            "target": "airGripperOpened3",
+            "color": "blue"
+        },
+        {
+            "source": "airGripperOpened3",
+            "target": "readyToUp3",
+            "color": "blue"
+        },
+        {
+            "source": "airGripperOpened3",
+            "target": "readyToMeasuring2",
+            "color": "blue"
+        },
+        {
+            "source": "airGripperLifted6",
+            "target": "readyToUp3",
+            "color": "blue"
+        },
+        {
+            "source": "readyToUp3",
+            "target": "airGripperUpAction3",
+            "color": "blue"
+        },
+        {
+            "source": "airGripperUpAction3",
+            "target": "airGripperLifted7",
+            "color": "blue"
+        },
+        {
+            "source": "airGripperLifted7",
+            "target": "readyToRetract1",
+            "color": "blue"
+        },
+        {
+            "source": "rotaryLiftAtMeasuring3",
+            "target": "readyToMeasuring2",
+            "color": "blue"
+        },
+        {
+            "source": "readyToMeasuring2",
+            "target": "rotateMeasuringAction2",
+            "color": "blue"
+        },
+        {
+            "source": "rotateMeasuringAction2",
+            "target": "rotaryLiftAtMeasuring4",
+            "color": "blue"
+        },
+        {
+            "source": "rotaryLiftAtMeasuring4",
+            "target": "readyToRetract1",
+            "color": "blue"
+        },
+        {
+            "source": "barrierArm1",
+            "target": "readyToRetract1",
+            "color": "blue"
+        },
+        {
+            "source": "readyToRetract1",
+            "target": "barrierArmAction1",
+            "color": "blue"
+        },
+        {
+            "source": "barrierArmAction1",
+            "target": "barrierArm2",
+            "color": "blue"
+        },
+        {
+            "source": "conveyorBelt3",
+            "target": "readyToRun2",
+            "color": "blue"
+        },
+        {
+            "source": "barrierArm2",
+            "target": "readyToRun2",
+            "color": "blue"
+        },
+        {
+            "source": "readyToRun2",
+            "target": "convForwardAction3",
+            "color": "blue"
+        },
+        {
+            "source": "convForwardAction3",
+            "target": "conveyorBelt4",
+            "color": "blue"
+        },
+        {
+            "source": "conveyorBelt4",
+            "target": "readyToStop2",
+            "color": "blue"
+        },
+        {
+            "source": "workPieceAtEnd2",
+            "target": "readyToStop2",
+            "color": "blue"
+        },
+        {
+            "source": "readyToStop2",
+            "target": "convForwardAction4",
+            "color": "blue"
+        },
+        {
+            "source": "convForwardAction4",
+            "target": "conveyorBelt5",
+            "color": "blue"
+        }
+
+        ,
+        {
+            "source": "sortingArm1",
+            "target": "readyToExtend1",
+            "color": "silver"
+        },
+        {
+            "source": ">=3000",
+            "target": "readyToExtend1",
+            "color": "silver"
+        },
+        {
+            "source": "readyToExtend1",
+            "target": "sortingArmAction1",
+            "color": "silver"
+        },
+        {
+            "source": "sortingArmAction1",
+            "target": "sortingArm2",
+            "color": "silver"
+        },
+        {
+            "source": "sortingArm2",
+            "target": "readyToBelt3",
+            "color": "silver"
+        },
+        {
+            "source": "sortingArm2",
+            "target": "readyToUp4",
+            "color": "silver"
+        },
+        {
+            "source": "rotaryLiftAtBelt5",
+            "target": "readyToBelt3",
+            "color": "silver"
+        },
+        {
+            "source": "airGripperLifted4",
+            "target": "readyToUp4",
+            "color": "silver"
+        },
+        {
+            "source": "readyToBelt3",
+            "target": "rotateBeltAction3",
+            "color": "silver"
+        },
+        {
+            "source": "readyToUp4",
+            "target": "airGripperUpAction4",
+            "color": "silver"
+        },
+        {
+            "source": "rotateBeltAction3",
+            "target": "rotaryLiftAtBelt6",
+            "color": "silver"
+        },
+        {
+            "source": "airGripperUpAction4",
+            "target": "airGripperLifted8",
+            "color": "silver"
+        },
+        {
+            "source": "rotaryLiftAtBelt6",
+            "target": "readyToDown4",
+            "color": "silver"
+        },
+        {
+            "source": "airGripperLifted8",
+            "target": "readyToDown4",
+            "color": "silver"
+        },
+        {
+            "source": "readyToDown4",
+            "target": "airGripperDownAction4",
+            "color": "silver"
+        },
+        {
+            "source": "airGripperDownAction4",
+            "target": "airGripperLifted9",
+            "color": "silver"
+        },
+        {
+            "source": "airGripperLifted9",
+            "target": "readyToOpen2",
+            "color": "silver"
+        },
+        {
+            "source": "airGripperOpened2",
+            "target": "readyToOpen2",
+            "color": "silver"
+        },
+        {
+            "source": "rotaryLiftAtBelt6",
+            "target": "readyToOpen2",
+            "color": "silver"
+        },
+        {
+            "source": "conveyorBelt3",
+            "target": "readyToOpen2",
+            "color": "silver"
+        },
+        {
+            "source": "readyToOpen2",
+            "target": "airGripperOpenAction2",
+            "color": "silver"
+        },
+        {
+            "source": "airGripperOpenAction2",
+            "target": "airGripperOpened4",
+            "color": "silver"
+        },
+        {
+            "source": "airGripperLifted9",
+            "target": "readyToUp5",
+            "color": "silver"
+        },
+        {
+            "source": "airGripperOpened4",
+            "target": "readyToUp5",
+            "color": "silver"
+        },
+        {
+            "source": "readyToUp5",
+            "target": "airGripperUpAction5",
+            "color": "silver"
+        },
+        {
+            "source": "airGripperUpAction5",
+            "target": "airGripperLifted10",
+            "color": "silver"
+        },
+        {
+            "source": "airGripperOpened4",
+            "target": "readyToMeasuring3",
+            "color": "silver"
+        },
+        {
+            "source": "rotaryLiftAtMeasuring5",
+            "target": "readyToMeasuring3",
+            "color": "silver"
+        },
+        {
+            "source": "readyToMeasuring3",
+            "target": "rotateMeasuringAction3",
+            "color": "silver"
+        },
+        {
+            "source": "rotateMeasuringAction3",
+            "target": "rotaryLiftAtMeasuring6",
+            "color": "silver"
+        },
+        {
+            "source": "rotaryLiftAtMeasuring6",
+            "target": "readyToRetract2",
+            "color": "silver"
+        },
+        {
+            "source": "airGripperLifted10",
+            "target": "readyToRetract2",
+            "color": "silver"
+        },
+        {
+            "source": "barrierArm3",
+            "target": "readyToRetract2",
+            "color": "silver"
+        },
+        {
+            "source": "readyToRetract2",
+            "target": "barrierArmAction2",
+            "color": "silver"
+        },
+        {
+            "source": "barrierArmAction2",
+            "target": "barrierArm4",
+            "color": "silver"
+        },
+        {
+            "source": "conveyorBelt3",
+            "target": "readyToRun3",
+            "color": "silver"
+        },
+        {
+            "source": "barrierArm4",
+            "target": "readyToRun3",
+            "color": "silver"
+        },
+        {
+            "source": "readyToRun3",
+            "target": "convForwardAction5",
+            "color": "silver"
+        },
+        {
+            "source": "convForwardAction5",
+            "target": "conveyorBelt6",
+            "color": "silver"
+        },
+        {
+            "source": "conveyorBelt6",
+            "target": "readyToStop3",
+            "color": "silver"
+        },
+        {
+            "source": "Chute1",
+            "target": "readyToStop3",
+            "color": "silver"
+        },
+        {
+            "source": "readyToStop3",
+            "target": "convForwardAction6",
+            "color": "silver"
+        },
+        {
+            "source": "convForwardAction6",
+            "target": "conveyorBelt7",
+            "color": "silver"
+        }
+    ]
+}
